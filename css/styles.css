@@ -34,10 +34,14 @@ button {
   width: 180px;
   margin: 10px;
   outline: none;
+  transition: transform 250ms;
+  border-radius: 8px;
 }
 
 button:hover {
   background: white;
   border: solid 1px white;
   color: #1b1717;
+  transform: translateY(-5px);
+  
 }
